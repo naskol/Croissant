@@ -9,17 +9,30 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="src/styles.css">
 </head>
 
 <body>
-    <a href="index.html">Homepage</a>
-    <a href="photo.html">Photo</a>
-    <a href="contact.html">Contact</a>
+    <nav class="navbar navbar-expand-lg bg-light">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="index.html">🥐</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+                aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav">
+                    <a class="nav-link" href="index.html">Homepage</a>
+                    <a class="nav-link  active" href="photo.html">Photo</a>
+                    <a class="nav-link" href="contact.html">Contact</a>
+                </div>
+            </div>
+        </div>
+    </nav>
 
     <h1 class="text-center">A picture of Croissant</h1>
     <img src="https://images.prismic.io/allplants-cms-prod/4d41a068-003a-45f5-8f54-539c4486d914_202006_Croissants-resize.jpg?auto=compress,format"
-        class="img-fluid" />
+        class="img-fluid p-3 border shadow rounded d-block" />
 
 </body>
 
